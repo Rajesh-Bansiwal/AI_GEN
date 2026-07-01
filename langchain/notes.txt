@@ -1,0 +1,80 @@
+foundation models
+llms
+use ya build 
+user perspective 
+builder perspective
+===================sementic serach 
+Semantic Search ek aisi search technique hai jo sirf exact keywords ko match nahi karti, balki query ka meaning (context) samajhkar result deti hai.
+============langchain =========
+lanachain is a open source framwrok helps to make llm based applications
+support all major llms
+simplify llm bsed applicationsintegerations available for all major tools
+open source free/activity developed
+supports all major genai use cases
+cover in this playlist 
+fundamental , rag, agents
+lagnchain have chain process jo ek component keliye output or dusre ke liye input ho skta hai
+have 6 compoenents
+1 models
+2 prompts
+3 chains
+4 memory
+5 indexes
+6 agents
+1==mdels component is a interfcae jiski help se ai model se bat kr skte hai 
+or y Ye unke APIs ko standardize (uniform interface) karta hai, taaki different providers ke saath kaam karna aasaan ho. or same trah se integerate or output
+chains ======
+build pipe lines using lanchan or khas baat ek stage ka output dusre ke liye input
+input text 1000 -->into hndi
+input -->llm -->trans --->llm --->summary not used chain y sara kaam manually krna hoga
+chains automatically ek stage ke output ko dusre ke liye input bna deta hai
+complex chain ============
+parallel chain 
+user -->input --llm1------->report 
+              ---llm2------>          -------->combine--->output
+conditional chai
+ai agent 
+input--->process --->sond based ---->thyan you
+                ----->sound good  --->email
+indexes ----------=========
+connect your app to external knowlede such as pdfs websites or database
+doc loader
+text splitter
+vectoer store 
+reterivel ->query uthata hai ->uska embeding g enerat krta hai phir  jo  vector  milta hai me sementic searck krt ahai data  
+quaery uthaya generate embedibg help of embeding model 
+phir jo vector hme miltra hai use vector ko pkdke database me sementic serach rta hai 
+sementuic serac se relevent result milte hai
+un results ko or user query ko uthakr llm ko deta hai or phir llm reply krta hai 
+like a ask chatgpt my company policy and and other but they dont have any idea llm + external knwledge
+external knowlege se wo de dega     
+memory ======================
+llm api calls are state less
+who is narendra mogi llm gpt ====== narendra modi is pm 
+how old is -- llm api --- usko nahi pta kyuki uske pass pehle wale ka reference nahi hai 
+conversation buffer memoery stores a transcript ofrecent message great for shorts chats but can grow large quickly
+conversation buffer window memory only keeps last n interations to avoid excessive token usage
+summarize based memory
+custom memory
+agents ================ 
+llms me do khubi hai nlu or text generation ---> chatbot
+ai agen se kaam bhi kra skte hai like 24 jan ko chipesflight shimla to manali or y api hit karega or y bta dega 
+or me isse kahu book the flight ory make my trip per jaake book bhi kr dega
+have reasonibng capability
+tools 
+ai agernt banaya do tool diye 
+calculator 
+wheater api ka applicationsintegerations
+user can you multiply the todays temp delhi with 3
+query ko break down karega
+delhui ke aaj ka temp uake passmki aisa tool hai wo dekhega whaeater api wo usse hit karega
+phir wo calculate ke liye tools me check karega cal ke liye phir wo uska use krke calcuate karega
+chain of thought prompting 
+
+Ek line me yaad rakhne ka trick
+Models → AI se baat karne ka interface.
+Prompts → AI ko instructions dene ka format.
+Chains → Multiple steps ko connect karna.
+Memory → Conversation yaad rakhna.
+Indexes/Retrieval → Documents se relevant information dhoondhna.
+Agents → Sochkar sahi tool aur workflow choose karna.
