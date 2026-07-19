@@ -1,0 +1,32 @@
+text spliting is the process of breaking large chunks of text 
+like article pdf into a smaller managable pieces chunks that llm can handel effectively
+
+improve the quality of analysis 
+llm ka context lenght linit hoti hai 
+
+recursive splitter 
+Text
+ │
+ ▼
+Try "\n\n"
+ │
+ ├── Success → Chunk
+ │
+ └── Fail
+      │
+      ▼
+Try "\n"
+ │
+ ├── Success → Chunk
+ │
+ └── Fail
+      │
+      ▼
+Try " "
+ │
+ ├── Success → Chunk
+ │
+ └── Fail
+      │
+      ▼
+Character Split ("")

@@ -1,0 +1,18 @@
+data source like --apoi,vector store ------retriever --------document
+                             query
+
+reteriever i sfunction user ko query leta hai output me multiple documents  objects de raha hai or 
+in between processing data base me ghuske searching kr raha hai 
+
+all retrivers are runnable and inko use krke chains form kr skte hai
+
+have many types of retriver :
+wikipedia 
+vector store  y data source ke based pe kaam krte hai
+
+search strategy ke based per bhi categerised kr skte hai 
+like mmr ,multi query ret,
+
+types of retrever 
+1 wokkis data source ke sath kaam kr raha hai
+2 wo searching ke liye konsa strategy use kr raha hai

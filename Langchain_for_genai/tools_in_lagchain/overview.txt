@@ -1,0 +1,9 @@
+tools ------------> tool caling ----------------------> agents
+-=----------------------tool + llm ---------------------->
+tools is a mechanism jisse hm llm ko hanmd dete hai for do some task
+tools ek function hota hain
+tools is a funxtion or llm sochega kb  is tool ki zarurat lm usko karega or apna kaam krke task complete karega
+two types of tool
+1 built in tools
+2 custom tools
+An ai agent is an llm powered system that can automnomouslky think decide aND TAKE ACTION USING EXTERNAL TOOLS OR APIS TO ACHIEVE AGHOAL

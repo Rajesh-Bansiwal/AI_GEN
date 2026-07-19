@@ -1,0 +1,2 @@
+usewd for dynamic prompt used chat prompt tempelate 
+messaeg place holder

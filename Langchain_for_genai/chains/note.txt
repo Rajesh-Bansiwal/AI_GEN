@@ -1,0 +1,4 @@
+why use chain
+llm ---> apps ---> prompt ---> llm ----> output 
+craet pipielines using chains
+isse first step ka utput dusre ke lioye input ka kaam krta hai 

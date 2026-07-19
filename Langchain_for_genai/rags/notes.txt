@@ -1,0 +1,89 @@
+RAG (Retrieval-Augmented Generation) ek technique hai jisme LLM answer dene se pehle external data se relevant information search 
+karta hai aur us information ko use karke answer generate karta hai.
+rags compyo
+documenty loaser 
+text splitter
+vectors stores
+retrievers
+query ------->   llm -------> Response
+llm sara data store krta haiu in from of number or isko parametric knowledge boltew hai jitne jayada parameter utna bda model
+situation 
+1 llm se apne porivate data ke bare me kuch puch raha haiu
+recent data or halucination tricky prompt me anwser i dont know 
+fine tunning kya hota 
+isme ek train llm kouthate hai or usko apne data pere trained krte hai 
+supervisewd traing isme dat hona chjahiye labels kiformme like quaestions and answer
+have some problems with fine tunning 
+1--llm train pay for this 
+2--technical experience
+3--jitni baar kuch change toh dubara fine tunning krni hogi
+inko solve krta hai incontext learning 
+examples se llm ko sikhana 
+y llm ka emergent properety hai 
+query ke sath contextr bhi share krte hai 
+1---indexing jo contxet aata hai external knowledge seexternal knowledge base ko banane ko hi indexing kehte hai 
+2--retrievel me is query ko dunte hai pure external knowledge me konse chunks hai jo is query ko resolve kare
+3--augmentaion llm ke paramerized knowledgr ke upper or extra knowledge add kr rahe jisse llm acche se answer de paye
+4 --generation prompt llm ke pass pchujta hai tb wo answer deta hai
+                INDEXING (Offline)
+
+PDFs / Docs
+      │
+      ▼
+Loader
+      │
+      ▼
+Chunking
+      │
+      ▼
+Embeddings
+      │
+      ▼
+Vector Store (Knowledge Base)
+
+────────────────────────────────────────────
+
+              RETRIEVAL (Online)
+
+User Query
+      │
+      ▼
+Embedding
+      │
+      ▼
+Similarity Search
+      │
+      ▼
+Relevant Chunks
+
+────────────────────────────────────────────
+
+             AUGMENTATION
+
+User Query
+      +
+Retrieved Chunks
+      │
+      ▼
+Augmented Prompt
+
+────────────────────────────────────────────
+
+             GENERATION
+
+Augmented Prompt
+      │
+      ▼
+LLM
+      │
+      ▼
+Final Answer
+**RAG (Retrieval-Augmented Generation)** ek technique hai jisme pehle **Indexing** ke through external documents (jaise PDFs, websites, ya files) 
+ko chunks me divide karke unke embeddings bana kar Vector Database me store kiya jata hai taaki woh searchable ban sake.
+ Jab user koi question poochta hai, to **Retrieval** step me us question se related sabse relevant chunks Vector Database se dhoondhe jaate hain. 
+ Iske baad **Augmentation** me in retrieved chunks ko user ke original question ke saath combine karke ek complete prompt banaya jata hai. 
+ Aakhir me **Generation** step me ye augmented prompt LLM ko diya jata hai, jo apni knowledge aur diye gaye context dono ka use karke accurate aur context-aware 
+ final answer generate karta hai.
+whaty is tokens
+A token is the smallest unit of text that an LLM reads and processes. Instead of reading complete sentences or words, an 
+LLM first breaks the input into tokens and then processes those tokens.

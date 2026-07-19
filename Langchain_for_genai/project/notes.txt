@@ -1,0 +1,48 @@
+example ===========
+ek  300 dimensions me 5 vector hai e naya vector 
+aya find krna hai y nya vector baki saare vecotr ke comparoison me close kise hai
+Query
+   │
+   ▼
+Embedding
+   │
+   ▼
+Query Vector
+   │
+   ▼
+Compare with all document vectors
+   │
+   ▼
+Similarity Scores
+
+Delhi      → 0.92
+Kolkata    → 0.56
+Paris      → 0.61
+
+   │
+   ▼
+enumerate()
+
+[(0,0.92),
+ (1,0.56),
+ (2,0.61)]
+
+   │
+   ▼
+Sort by score
+
+[(1,0.56),
+ (2,0.61),
+ (0,0.92)]
+
+   │
+   ▼
+Take last element
+
+(0,0.92)
+
+   │
+   ▼
+documents[0]
+
+Delhi is the capital of India

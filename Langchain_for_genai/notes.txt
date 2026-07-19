@@ -78,3 +78,7 @@ Chains → Multiple steps ko connect karna.
 Memory → Conversation yaad rakhna.
 Indexes/Retrieval → Documents se relevant information dhoondhna.
 Agents → Sochkar sahi tool aur workflow choose karna.
+=============use of temperature in models 
+temp =0 same input same output 
+temp=0.5 slighltly change 
+temp=1.5 toh kafi creative output

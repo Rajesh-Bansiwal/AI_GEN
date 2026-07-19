@@ -1,0 +1,11 @@
+a vector store is system design store and retrieve data represents as numerical vector
+store metadata related to document in vector stores
+store in memory or disk
+similarity serach helps reterieve the vectors most similar to a query vector
+indexing
+crud operation
+vector store vs vector datavase
+typically refers to light weight lib or service that focus storing vectors (embeding performing similarity serach)
+vector databse a full fledged datbase to store query vector have authentication /auth 
+vectroe databae is effecient a vetor with extra  dtabase features like clustering scaling ,security 
+vector stores ex pincode , chroma, faiss,qdrant weavite

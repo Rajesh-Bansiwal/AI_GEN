@@ -1,0 +1,13 @@
+give data in json format so i store in db in structured manner value give in dict format
+poweful technique used llms for humans se interact k liye llm
+textual de raha hai toh usko hm dusre sytems ke sath interact nahiu kra paa rha the lik eapi
+like upload a data or usme se hm email name extract krke db me store kr le 
+
+with structured output function ko use krke structure utput generate karaege isme hme data format batana hota hai 
+1 typed dict 
+2 pydantic
+3json schema
+====structure_output==========
+just data type defined but not follow strictly
+pydentic ============
+isme data types bahut strict hota hai 

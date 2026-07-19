@@ -1,0 +1,17 @@
+Runnable ek common interface hai jo LangChain ke sabhi components (Prompt, LLM, Parser, Lambda, Branch, Parallel) ko ek chain me connect karke automatically execute karne ki facility deta hai.
+pdf reader ----
+pdf load --> splits --->embed --> vector ---> retrival ---> llm ---> parse 
+unit of work 
+input --> procewss ---> output
+common interfgace
+inmvoke 
+batch used for multiple 
+stream
+r1<--->r2
+ek ka output dusre ke liye input hota hai 
+1---->runnable primitive 
+runnabl;e sequence 
+runnable parallel 
+runnable condition
+2-----> task specific runnables like prompt templete convert chatopen ai, into runnables for connect perfectly
+

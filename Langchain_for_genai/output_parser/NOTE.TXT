@@ -1,0 +1,7 @@
+open sourced model structuire outyput nahi de skte so hm output parsers ki help se y krte hai 
+output parsers 
+1.string output parsers
+2.json output parsers
+3.structure output parser 
+4.pydentic output parsers
+why use this tring becouse string and result.content are same result 

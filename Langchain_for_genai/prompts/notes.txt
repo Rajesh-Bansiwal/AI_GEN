@@ -1,0 +1,5 @@
+input instructions or queries given to a model to guide its output
+text based 
+multimodel image  / sound / video
+types of messages in langchain 
+sytem message / human message / ai message 

@@ -1,0 +1,3 @@
+you want to call your own api
+you want to encasulate business logic
+you want llm to interatct with your db
